@@ -84,8 +84,8 @@ Polynomial::getOneRealRoot( double _y, double x_min, double x_max )
     //  std::cout << std::endl;
 
 //     TODO:method to get one value
-    if (realRoot.size() >= 1)
-       return realRoot(0);
+    if (realRoots.size() >= 1)
+       return realRoots(0);
     else
        return 0;
 }
